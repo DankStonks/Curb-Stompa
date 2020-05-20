@@ -1,0 +1,7 @@
+v = game.Players.LocalPlayer.Character:FindFirstChildOfClass("Tool")
+    v.Parent = game.Players.LocalPlayer.Backpack
+    v.Handle.Massless = true
+    v.GripPos = Vector3.new(100000000000000,100000000000000,100000000000000)
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CustomPhysicalProperties = PhysicalProperties.new(92,92,92,92,92)
+    v.Parent = game.Players.LocalPlayer.Character
+	execCmd('noclip')
